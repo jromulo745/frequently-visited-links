@@ -49,6 +49,8 @@ print('\t2 - Non-MDN links')
 print('\t3 - Open File Directory')
 user_input = int(input('\n\tPlease select a choice: '))
 
+dictionary = None
+
 os.system('clear')
 if user_input == 1:
     dictionary = mdn_links
@@ -56,6 +58,7 @@ elif user_input == 2:
     dictionary = non_mdn_links
 elif user_input == 3:
     os.system('open .')
+    quit()
 else:
     print('\n\tinvalid answer...')
     quit()
