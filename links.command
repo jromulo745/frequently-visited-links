@@ -10,9 +10,10 @@ def space_format(string, maximum_length):
     return string
 
 mdn_links = {
-    0: ['CSS Reference', 'https://developer.mozilla.org/en-US/docs/Web/CSS/Reference',],
-    1: ['HTML Element Reference', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element',],
-    2: ['HTML Attribute Reference', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes',],
+    0: ['Home Page', 'https://developer.mozilla.org/en-US/'],
+    1: ['CSS Reference', 'https://developer.mozilla.org/en-US/docs/Web/CSS/Reference',],
+    2: ['HTML Element Reference', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Element',],
+    3: ['HTML Attribute Reference', 'https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes',],
 }
 
 non_mdn_links = {
