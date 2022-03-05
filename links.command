@@ -42,6 +42,7 @@ non_mdn_links = {
     22: ['Mozilla', 'https://developer.mozilla.org/en-US/',],
     23: ['JetBrains', 'https://account.jetbrains.com/login',],
     24: ['HBO Max', 'https://www.hbomax.com/',],
+    25: ['LinkedIn', 'https://www.linkedin.com']
 }
 
 print() # line only for spacing in output 
