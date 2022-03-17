@@ -78,8 +78,8 @@ while valid == False:
     user_input = int(input('\n\tSelect link (1 - ' + str(len(dictionary)) + '): '))
     if user_input == 0:
         break
-    stuff = webbrowser.get('safari')
-    stuff.open(dictionary[user_input - 1][1])
+
+    webbrowser.get('chrome').open(dictionary[user_input-1][1])
     valid = True
 
 os.system('killall Terminal')
