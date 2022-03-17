@@ -79,6 +79,7 @@ while valid == False:
     if user_input == 0:
         break
 
+    os.system('open "/Applications/Google Chrome.app"')
     webbrowser.get('chrome').open(dictionary[user_input-1][1])
     valid = True
 
