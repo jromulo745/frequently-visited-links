@@ -83,4 +83,5 @@ while valid == False:
     webbrowser.get('chrome').open(dictionary[user_input-1][1])
     valid = True
 
+os.system('exit')
 os.system('killall Terminal')
